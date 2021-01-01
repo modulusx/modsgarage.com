@@ -1,0 +1,80 @@
+<!--
+
+* { margin: 0; padding: 0; }
+
+html { }
+
+body {
+  color: #FFFFFF;
+  background-color: #000000;
+  background-image: url('../images/dylines.jpg');
+  background-repeat: repeat-y;
+}
+
+img {
+  border: none;
+}
+
+div.page {
+  width: 1024px;
+  margin-top: 15px;
+}
+
+div.leftofcenter {
+  float: left;
+  width: 75px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+div.leftofcenter ul {
+  list-style-type: none;
+}
+
+div.leftofcenter ul li {
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+div.leftofcenter ul li a {
+  display: block;
+  color: #FFFF00;
+  background: #000000;
+  border: 1px solid #FFFF00;
+  padding: 4px 0px 4px 0px;
+}
+
+div.leftofcenter a:hover {
+  background: #FFFF00; color: #000000;
+}
+
+div.banner {
+  margin-bottom: 10px;
+  margin-left: 135px;
+}
+
+div.main {
+  width: 640px;
+  margin-left: 135px;
+}
+
+div.main div.passing {
+  padding-bottom: 4px;
+  border-bottom: 3px dashed #FFFF00;
+  margin-bottom: 5px;
+}
+
+div.main div.passing h1,h2,h3 {
+  padding-left: 10px;
+  border-bottom: 3px solid #FFFF00;
+}
+
+div.main div.passed {
+  margin-bottom: 30px;
+}
+
+a:link { text-decoration: none; color: #FFFF00; }
+a:active { text-decoration: none; color: #FFFFFF; }
+a:visited { text-decoration: none; color: #FF0000; }
+
+-->
